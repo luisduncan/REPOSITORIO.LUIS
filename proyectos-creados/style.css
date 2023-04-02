@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'popins' , sans-serif;
+    font-size: 62.5%;
+}
+
+/*header{
+    background-color: papayawhip;
+    width: 100%;
+    height: 50px;
+}*/
+/* mi encabezamiento*/
+header{
+background: linear-gradient(#1d293f,#3f95e6);
+background-size: 100%;
+
+  
+  
+}
+header .nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+header .nav-container .logo-ancor{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 16px;
+
+}
+header .nav-container ul{
+   list-style: none;
+   
+}
+
+header .nav-container ul .nav-items{
+    font-weight: bold;
+    display: inline-flex;
+}
+header .nav-container ul .nav-items a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+header .nav-container ul .nav-items a:active{
+    color: #1d293f;
+}
+header .nav-container ul .nav-items:hover{
+    border-radius: 5px;
+    background-color: #2091F9;
+    
+}
+header .header-container{
+    margin:auto;
+    width: 70%;
+    height: 40vh;
+    top: 40px;
+   text-align: center;
+   place-content: center;
+}
+header .container .title{
+    margin-top: 70px;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+header .container p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 50px;
+    
+}
+header .container a{
+    font-size: 1.5rem;
+    background-color: #2091F9;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+header .container a:hover{
+    background-color: #43acf2;
+    box-shadow: 0px 4px 20px 0px pink;
+}
+main{
+    width: 100%;
+ 
+}
+
+/*body{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('https://us.123rf.com/450wm/waichi2013th/waichi2013th2209/waichi2013th220900124/192740335-fondo-geom%C3%A9trico-colorido-dise%C3%B1o-de-fondo-de-color-ne%C3%B3n-composici%C3%B3n-de-formas-din%C3%A1micas-fondos.jpg?ver=6');
+}*/
+
+main{
+   margin-top: 10px; 
+}
+/*mi seccion principal*/
+
+main .section-imformativa{
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+}
+main .section-imformativa .subtitle{
+    color: #1d293f;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+main  .section-container{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+main .section-container .cards-items{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: papayawhip;
+    margin-left: 30px;
+}
+main .section-container .cards-items:hover{
+    box-shadow: 0px 1px 50px 0px #97c2eb;
+}
+main .section-container #box1 {
+    background-color: #e5e5f7;
+    padding: 40px;
+}
+main .section-container #box1 .items{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+main .section-container #box1 .title{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1d293f;
+}
+main .section-container #box1 .content-cards{
+    margin-bottom: 50px;
+}
+main .section-container #box1 .content-cards p{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 10px 0px;
+   
+
+}
+
+main .section-container #box1 .buttom-ancor{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #5454da;
+    padding: 20px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+
+}
+main .section-container #box1 .buttom-ancor:hover{
+    background-color: aliceblue;
+
+}
+
+main .section-container #box2 {
+    background-color: #e5e5f7;
+    padding: 40px;
+}
+main .section-container #box2 .items{
+    color: #696871;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+main .section-container #box2 .title{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1d293f;
+}
+main .section-container #box2 .content-cards{
+    margin-bottom: 50px;
+}
+main .section-container #box2 .content-cards p{
+    text-align: center;
+    font-size: 2rem;
+    color: #696871;
+    padding: 10px 0px;
+   
+
+}
+
+main .section-container #box2 .buttom-ancor{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #5454da;
+    padding: 20px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+
+}
+main .section-container #box2 .buttom-ancor:hover{
+    background-color: aliceblue;
+
+}
+
+
+main .section-container #box3 {
+    background-color: #FF7143;
+    padding: 40px;
+}
+main .section-container #box3 .items{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+main .section-container #box3 .title{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+main .section-container #box3 .content-cards{
+    margin-bottom: 50px;
+}
+main .section-container #box3 .content-cards p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: aliceblue;
+    padding: 10px 0px;
+   
+
+}
+
+main .section-container #box3 .buttom-ancor{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #5454da;
+    padding: 20px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+
+}
+main .section-container #box3 .buttom-ancor:hover{
+    background-color: aliceblue;
+
+}
+
+
+main .section-principal {
+    padding: 50px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #e5e5f7;
+    
+
+}
+main .section-principal .section{
+    width: 50%;
+}
+
+main .section-principal .section h1{
+    font-size: 2.5rem;
+    color: #1d293f;
+    font-weight: bold;
+   margin-bottom: 20px;
+}
+main .section-principal .section p{
+   
+    color: #1d293f;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    
+}
+main .section-principal .section a{
+    background-color: #2091F9;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+main .section-principal .section a:hover{
+    
+    background-color: #43acf2;
+    box-shadow: 0px 4px 20px 0px pink;
+}
+
+footer{
+    background-color: #1d293f;
+    padding: 40px;
+  
+}
+footer .footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+footer .footer-left h2{
+    font-weight: 400;
+    font-size: 3rem;
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding-left: 40px;
+
+}
+
+footer .footer-left ul{
+    list-style: none;
+}
+
+footer .footer-left ul .list-items{
+    display: inline-block;
+    padding-left: 40px;
+
+}
+
+footer .footer-left ul .list-items a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 500;
+}
+footer .footer-left ul .list-items a:hover{
+    color: #9f9fa0;
+}
+footer .footer-right{
+    padding: 20px;
+    
+}
+
+footer .footer-right p{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+footer .footer-right p:hover{
+    color: #9f9fa0;
+}
+footer .footer-right input{
+    height: 50px;
+    width: 25rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+footer .footer-right input::placeholder{
+    font-size: 1.5rem;
+}
+footer .footer-right input:hover{
+    box-shadow: 0px 2px 10px 0px #696871;
+}
+footer .footer-right .buttom-email{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #2091F9;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+footer .footer-right .buttom-email:hover{
+    background-color: #3f95e6;
+    box-shadow: 0px 1px 6px 0px #5454da;
+}
+footer .icon-items{
+    margin-top: 20px;
+    text-align: center;
+}
+footer .icon-items .icon{
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+footer .icon-items .icon .social{
+    width: 20px;
+    height: 20px;
+}
+footer .derechos h3{
+    font-size: 2rem;
+    color: aliceblue;
+    
+}
+
+
+
